@@ -1,0 +1,15 @@
+{
+  "job_id": "sde-l4-hvh",
+  "title": "Software Development Engineer (fictional example role)",
+  "required_skills": ["python", "sql"],
+  "preferred_skills": ["distributed systems", "aws", "java", "testing", "concurrency"],
+  "min_years_experience": 1,
+  "target_years_experience": 4,
+  "weights": {
+    "required_skills": 0.35,
+    "preferred_skills": 0.20,
+    "experience": 0.15,
+    "assessment": 0.30
+  },
+  "knockout_on_missing_required": true
+}

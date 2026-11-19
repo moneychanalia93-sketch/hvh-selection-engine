@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hvh-selection-engine"
+version = "1.0.0"
+description = "A high-volume automated candidate selection pipeline: idempotent ingestion, durable SQLite work queue, explainable scoring, top-K ranking and a four-fifths fairness audit. Standard library only."
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [{ name = "Money Chanalia" }]
+requires-python = ">=3.11"
+dependencies = []
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.scripts]
+hvh = "hvh.cli:main"
+
+[tool.setuptools]
+packages = ["hvh"]
+
+[tool.setuptools.package-data]
+hvh = ["data/jobs/*.json"]

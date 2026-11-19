@@ -1,0 +1,136 @@
+{
+  "measured_at": "2026-11-18 16:58:34 -0500",
+  "machine": {
+    "cpu": "AMD Ryzen 5 PRO 8540U w/ Radeon 740M Graphics",
+    "logical_cpus": 12,
+    "ram_gb": 31.3,
+    "os": "Windows-11-10.0.26200-SP0",
+    "python": "3.13.5",
+    "sqlite": "3.49.1"
+  },
+  "applications": 100000,
+  "seed": 7,
+  "ingest_in_process": {
+    "applications": 100000,
+    "seconds": 105.79,
+    "per_sec": 945,
+    "latency_ms": {
+      "count": 100000,
+      "mean": 1.057,
+      "p50": 0.638,
+      "p95": 1.34,
+      "p99": 10.846,
+      "max": 740.54
+    }
+  },
+  "ingest_http": {
+    "requests": 5000,
+    "clients": 8,
+    "seconds": 8.11,
+    "per_sec": 616,
+    "status_counts": {
+      "201": 5000
+    },
+    "latency_ms": {
+      "count": 5000,
+      "mean": 10.377,
+      "p50": 1.16,
+      "p95": 17.372,
+      "p99": 137.553,
+      "max": 2989.796
+    }
+  },
+  "scoring": [
+    {
+      "workers": 1,
+      "seconds": 29.18,
+      "per_sec": 3427,
+      "batch_latency_ms": {
+        "count": 100000,
+        "mean": 7.71,
+        "p50": 5.196,
+        "p95": 10.712,
+        "p99": 59.997,
+        "max": 577.649
+      },
+      "verified": {
+        "done": 100000,
+        "scores": 100000,
+        "dead": 0
+      }
+    },
+    {
+      "workers": 2,
+      "seconds": 26.77,
+      "per_sec": 3735,
+      "batch_latency_ms": {
+        "count": 100000,
+        "mean": 12.178,
+        "p50": 5.772,
+        "p95": 39.371,
+        "p99": 110.544,
+        "max": 257.167
+      },
+      "verified": {
+        "done": 100000,
+        "scores": 100000,
+        "dead": 0
+      }
+    },
+    {
+      "workers": 4,
+      "seconds": 25.93,
+      "per_sec": 3857,
+      "batch_latency_ms": {
+        "count": 100000,
+        "mean": 22.343,
+        "p50": 5.609,
+        "p95": 69.485,
+        "p99": 276.595,
+        "max": 2064.503
+      },
+      "verified": {
+        "done": 100000,
+        "scores": 100000,
+        "dead": 0
+      }
+    },
+    {
+      "workers": 8,
+      "seconds": 30.92,
+      "per_sec": 3234,
+      "batch_latency_ms": {
+        "count": 100000,
+        "mean": 48.565,
+        "p50": 7.061,
+        "p95": 117.248,
+        "p99": 1042.02,
+        "max": 5841.562
+      },
+      "verified": {
+        "done": 100000,
+        "scores": 100000,
+        "dead": 0
+      }
+    }
+  ],
+  "end_to_end": {
+    "applications": 100000,
+    "workers": 4,
+    "seconds": 130.97,
+    "per_sec": 764,
+    "latency_ms": {
+      "count": 100000,
+      "mean": 101.421,
+      "p50": 64.182,
+      "p95": 315.606,
+      "p99": 482.154,
+      "max": 686.275
+    },
+    "verified": {
+      "done": 100000,
+      "scores": 100000,
+      "dead": 0
+    }
+  }
+}

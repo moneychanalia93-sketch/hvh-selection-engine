@@ -1,0 +1,15 @@
+{
+  "job_id": "support-engineer-l3",
+  "title": "Support Engineer (fictional example role)",
+  "required_skills": ["linux"],
+  "preferred_skills": ["python", "sql", "networking", "communication"],
+  "min_years_experience": 0,
+  "target_years_experience": 2,
+  "weights": {
+    "required_skills": 0.25,
+    "preferred_skills": 0.25,
+    "experience": 0.10,
+    "assessment": 0.40
+  },
+  "knockout_on_missing_required": false
+}

@@ -1,0 +1,15 @@
+{
+  "job_id": "data-engineer-l4",
+  "title": "Data Engineer (fictional example role)",
+  "required_skills": ["sql", "python", "etl"],
+  "preferred_skills": ["spark", "aws", "data modeling", "airflow"],
+  "min_years_experience": 2,
+  "target_years_experience": 5,
+  "weights": {
+    "required_skills": 0.40,
+    "preferred_skills": 0.20,
+    "experience": 0.20,
+    "assessment": 0.20
+  },
+  "knockout_on_missing_required": true
+}
