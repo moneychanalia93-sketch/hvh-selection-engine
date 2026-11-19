@@ -134,10 +134,6 @@ What the numbers say:
   job-related, and real fairness review needs proper statistics and legal input.
 * Python 3.11 and 3.12 are covered by CI configuration; local runs were on 3.13.
 
-## Repository guide
-
-* [docs/COMPLETION_REPORT.md](docs/COMPLETION_REPORT.md): commands run to verify this repo and their output.
-
 ## License
 
 MIT, copyright Money Chanalia. See [LICENSE](LICENSE).
